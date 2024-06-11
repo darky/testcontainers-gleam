@@ -3,6 +3,8 @@
 [![Package Version](https://img.shields.io/hexpm/v/testcontainers_gleam)](https://hex.pm/packages/testcontainers_gleam)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/testcontainers_gleam/)
 
+Gleam TestContainers wrapper around [Elixir TestContainers](https://github.com/testcontainers/testcontainers-elixir)
+
 ```sh
 gleam add --dev testcontainers_gleam
 ```
