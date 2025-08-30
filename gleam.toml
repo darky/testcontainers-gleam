@@ -3,7 +3,7 @@ version = "1.0.1"
 description = "Gleam TestContainers wrapper around Elixir TestContainers"
 licences = ["MIT"]
 repository = { type = "github", user = "darky", repo = "testcontainers-gleam" }
-gleam = ">= 1.2.0"
+gleam = ">= 1.7.0"
 
 [dependencies]
 gleam_erlang = ">= 0.25.0"
