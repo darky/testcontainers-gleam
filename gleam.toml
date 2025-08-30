@@ -1,5 +1,5 @@
 name = "testcontainers_gleam"
-version = "1.0.0"
+version = "1.0.1"
 description = "Gleam TestContainers wrapper around Elixir TestContainers"
 licences = ["MIT"]
 repository = { type = "github", user = "darky", repo = "testcontainers-gleam" }
