@@ -11,15 +11,15 @@ pub fn main() {
     ))
 
   start_info.container_id
-  |> dynamic.from
+  |> dynamic.string()
   |> dynamic.classify
   |> should.equal("String")
 
   start_info.port
-  |> dynamic.from
+  |> dynamic.int()
   |> dynamic.classify
   |> should.equal("Int")
 
   let stop_info = testcontainers_gleam.stop_container(start_info.container_id)
-  stop_info |> should.equal(atom.create_from_string("ok"))
+  stop_info |> should.equal(atom.create("ok"))
 }
