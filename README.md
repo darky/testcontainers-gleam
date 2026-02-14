@@ -8,6 +8,7 @@ Gleam TestContainers wrapper around [Elixir TestContainers](https://github.com/t
 ```sh
 gleam add --dev testcontainers_gleam
 ```
+
 ```gleam
 import testcontainers_gleam.{Config}
 
@@ -33,3 +34,7 @@ gleam run   # Run the project
 gleam test  # Run the tests
 gleam shell # Run an Erlang shell
 ```
+
+## License
+
+testcontainers-gleam is licensed under the MIT license. See full license [HERE](./LICENSE)
